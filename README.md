@@ -11,6 +11,7 @@ HypoCycloid.y track the trajectory of a single point.
 speed.py calculates the maximum speed of a point on the planet gear surface. 
 
 # laser engrave
-shortest_path.py outputs the Eulerian path for given node connections.
+shortest_path.py outputs the Eulerian path for given node connections.  
+node_connections.py contains the node connections (edges) for each gear mesh, some data may not be the newest.
 ## animation
 animation.py creates an animation for the Eulerian path.
