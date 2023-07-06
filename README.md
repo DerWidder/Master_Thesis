@@ -16,3 +16,5 @@ node_connections.py contains the node connections (edges) for each gear mesh, so
 transform.py transforms the coordinats of each gear mesh by rotating a certain angle. Then the entire mesh can be construced by combining the single meshes.
 ## animation
 animation.py creates an animation for the Eulerian path.
+## dxf
+creat_dxf.py outputs the .dxf file of the mesh to be opened in NX and get .prt file.
