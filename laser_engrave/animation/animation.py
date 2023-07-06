@@ -8,7 +8,7 @@ import imageio
 # points of planet pattern
 # point_set = pd.read_csv('../new_nodes.txt', sep='\s+')
 # points of ring pattern
-point_set = pd.read_csv('../Ring/ring_new_nodes.txt', sep='\s+')
+point_set = pd.read_csv('../ring_new_nodes.txt', sep='\s+')
 
 x = point_set['x']
 y = point_set['y']
