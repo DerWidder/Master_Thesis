@@ -12,6 +12,7 @@ speed.py calculates the maximum speed of a point on the planet gear surface.
 
 # laser engrave
 shortest_path.py outputs the Eulerian path for given node connections.  
-node_connections.py contains the node connections (edges) for each gear mesh, some data may not be the newest.
+node_connections.py contains the node connections (edges) for each gear mesh, some data may not be the newest.  
+transform.py transforms the coordinats of each gear mesh by rotating a certain angle. Then the entire mesh can be construced by combining the single meshes.
 ## animation
 animation.py creates an animation for the Eulerian path.
