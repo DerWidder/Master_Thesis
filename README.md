@@ -18,3 +18,6 @@ transform.py transforms the coordinats of each gear mesh by rotating a certain a
 animation.py creates an animation for the Eulerian path.
 ## dxf
 creat_dxf.py outputs the .dxf file of the mesh to be opened in NX and get .prt file.
+
+# mesh_raw_data
+Raw data for each gear mesh, will open in LS-PrePost-4.5-x64.
