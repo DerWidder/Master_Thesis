@@ -6,3 +6,5 @@ main.py is used to change the folder of NX output environment setting files, so 
 
 # gear_motion
 simulate.py is used to get the animation of the epicycloid.
+HypoCycloid_01.py track the trajectory of a triangle comsists of three points.
+HypoCycloid.y track the trajectory of a single point.
