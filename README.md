@@ -8,7 +8,8 @@ main.py is used to change the folder of NX output environment setting files, so 
 simulate.py is used to get the animation of the epicycloid.  
 HypoCycloid_01.py track the trajectory of a triangle comsists of three points.  
 HypoCycloid.y track the trajectory of a single point.  
-speed.py calculates the maximum speed of a point on the planet gear surface. 
+speed.py calculates the maximum speed of a point on the planet gear surface.  
+The mathematical analysis of the motion process is in speed_calc.pdf.
 
 # laser engrave
 shortest_path.py outputs the Eulerian path for given node connections.  
