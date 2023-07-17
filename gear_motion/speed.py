@@ -12,11 +12,12 @@ def EpiCycloid_Calc(a, b, omega):
 
     # set the angle for two separate motions, theta_p for self-rotation and theta_pc for planet carrier
     # choose counterclockwise to be the positive direction
-    theta_p = np.arange(np.pi, 3*np.pi, 0.05)
-    theta_pc = np.arange(0, -2*np.pi*7/15, -0.05*7/15)
+    theta_p = np.arange(np.pi, np.pi + 2*np.pi*15/7, 0.05*15/7)
+    theta_pc = np.arange(0, -2*np.pi, -0.05)
+    omega_pc = omega
+    omega_p = 15*omega_pc/7
 
-    omega_p = omega
-    omega_pc = 7*omega/15
+
     # radius of the planet carrier
     R = a+b
     # radius of the interested point towards planet gear center
@@ -38,4 +39,4 @@ def EpiCycloid_Calc(a, b, omega):
     return v_max
 
 if __name__ == '__main__':
-    V = EpiCycloid_Calc(54.5, 58, 15.2381*2*np.pi)
+    V = EpiCycloid_Calc(54.5, 58, 8*2*np.pi)
